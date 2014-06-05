@@ -1,5 +1,8 @@
 ---
-layout: home
+layout:     home
+title:      The official raywenderlich.com Objective-C style guide
+category: blog
+description: This style guide outlines the coding conventions for raywenderlich.com.he reason we made this style guide was so that we could keep the code in our books, tutorials, and starter kits nice and consistent - even though we have many different authors working on the books.
 ---
 
 # The official raywenderlich.com Objective-C style guide.

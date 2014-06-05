@@ -1,0 +1,21 @@
+.post-title{
+	margin-bottom: 15px;
+}
+.post-title a{
+	font-size: 25px;
+	color: #3D3C3C;
+}
+
+.post-description{
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e3e3e3;
+	padding: 6px;
+	background-color: #F3F2F2;
+}
+.btn-readmore{
+	margin-top: 8px;
+	float: right;
+	font-style: italic;
+}
