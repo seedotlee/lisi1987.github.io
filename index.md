@@ -123,6 +123,7 @@ Use `#pragma mark -` to categorize methods in functional groupings and protocol/
 * Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
 
 **Preferred:**
+
 ```objc
 if (user.isHappy) {
   //Do something
@@ -132,6 +133,7 @@ if (user.isHappy) {
 ```
 
 **Not Preferred:**
+
 ```objc
 if (user.isHappy)
 {
