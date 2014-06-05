@@ -163,6 +163,8 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  border-left: #e3e3e3 1px dashed;
+  padding-left: 45px;
 }
 
 small {
