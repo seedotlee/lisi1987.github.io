@@ -166,8 +166,8 @@
 		----------------------------*/	
 		header .mobile-menu-toggle{height:45px;width:100%;text-align:center;display:none;margin:0;border-top:1px solid #e6e6e6;}
 		header .mobile-menu-toggle a,#header-wrapper #header-inner header .mobile-menu-toggle.open a{width:45px;height:45px;display: inline-block;}
-		header .mobile-menu-toggle a{background:url(../images/ui/mobileMenu-toggle.png) center 0 no-repeat;}
-		header .mobile-menu-toggle a.open{background:url(../images/ui/mobileMenu-toggle.png) center -45px no-repeat;}
+		header .mobile-menu-toggle a{background:url(../images/mobileMenu-toggle.png) center 0 no-repeat;}
+		header .mobile-menu-toggle a.open{background:url(../images/mobileMenu-toggle.png) center -45px no-repeat;}
 		
 		/* Tablet & mobile menu
 		----------------------------*/
@@ -409,7 +409,7 @@
 		/*Widgets: widget_recent_entries,widget_archive,widget_categories,widget_meta,widget_pages*/
 		aside.sidebar ul{float:left;width:100%;list-style:none; margin:0;padding:0;}
 		aside.sidebar ul li{width:100%;float:left;margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid #e6e6e6;}
-		aside.sidebar ul li:last-child{margin:0px;padding:0px;border:none !important;}
+		aside.sidebar ul li:last-child{margin:0px;padding:10px 10px;padding-bottom: 20px; border:none !important;}
 		aside.sidebar ul li h4.widget-title{font-size:15px; line-height:15px; text-transform: uppercase;color:#999;margin-bottom:20px;}
 		aside.sidebar ul li h4.widget-title span {font-weight: bold;}
 		aside.sidebar ul li h4.widget-title,aside.sidebar ul li h4.widget-title span {color: #999;}
@@ -529,7 +529,7 @@
 	.footer-widget p.date{color:#999; font-size:11px;text-transform:uppercase;}
 
 	/*Back to top*/
-	#footer-wrapper #footer-bottom .back-to-top{width: 25px;height:25px;border:1px solid #ddd; border-radius:50%;display: inline-block;text-indent: -9999px; background:url(ui/to-top.png) center center no-repeat;margin-top: 50px;}
+	#footer-wrapper #footer-bottom .back-to-top{width: 25px;height:25px;border:1px solid #ddd; border-radius:50%;display: inline-block;text-indent: -9999px; background:url(../images/to-top.png) center center no-repeat;margin-top: 50px;}
 
 	/*----------------------------
 	iv.-- Media
