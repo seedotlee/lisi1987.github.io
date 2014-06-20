@@ -204,7 +204,7 @@
 	#content-wrapper section.portfolio-fixed-width-grid{max-width:870px; margin-left:40px;}
 	#content-wrapper.full-width-grid-wrapper {padding:0;}
 	#content-wrapper section.portfolio-full-width-grid{width:100%;}
-	#content-wrapper section.pages{max-width:870px;margin-left: 40px;}
+	#content-wrapper section.pages{/*max-width:870px;*/margin-left: 40px;}
 	#content-wrapper section.portfolio{width:870px;}
 	.single-udt_portfolio #content-wrapper section.pages{margin-bottom: 50px;}
 	#content-wrapper section.portfolio .pages{margin-left: 0;}
@@ -409,7 +409,7 @@
 		/*Widgets: widget_recent_entries,widget_archive,widget_categories,widget_meta,widget_pages*/
 		aside.sidebar ul{float:left;width:100%;list-style:none; margin:0;padding:0;}
 		aside.sidebar ul li{width:100%;float:left;margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid #e6e6e6;}
-		aside.sidebar ul li:last-child{margin:0px;padding:10px 10px;padding-bottom: 20px; border:none !important;}
+		aside.sidebar ul li:last-child{margin:0px;padding:0px; border:none !important;}
 		aside.sidebar ul li h4.widget-title{font-size:15px; line-height:15px; text-transform: uppercase;color:#999;margin-bottom:20px;}
 		aside.sidebar ul li h4.widget-title span {font-weight: bold;}
 		aside.sidebar ul li h4.widget-title,aside.sidebar ul li h4.widget-title span {color: #999;}
