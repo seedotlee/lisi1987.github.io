@@ -333,7 +333,8 @@
 	/*.content-inner-left{width:415px;}*/
 	/*.content-inner-right{width:415px;}*/
 	aside.sidebar{width:100% !important;}
-	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px; padding:10px 10px;padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px;padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar ul {padding-left: 10px;}
 	.blog-post-content .blog-post-featured-media{width:420px; height:auto; float:left;margin-bottom:30px; overflow:hidden;position:relative;}
 	.blog-post-content .blog-post-featured-media .thumb{width:415px;}
 	.blog-post-content .video{width:415px !important;height:233px !important;}
@@ -504,7 +505,8 @@
 	/*blog layout:regular*/
 	.content-inner-left{width:100%;}
 	.content-inner-right{width:100%;}
-	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px; padding:10px 10px;padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px; padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar ul {padding-left: 10px;}
 	.blog-post-content .blog-post-featured-media{width:420px; height:auto; float:left;margin-bottom:30px; overflow:hidden;position:relative;}
 	.blog-post-content .blog-post-featured-media .thumb{width:100%;}
 	.blog-post-content .video{width:415px !important;height:236px !important;}
@@ -704,7 +706,8 @@
 	/*blog layout:regular*/
 	.content-inner-left{width:100%;}
 	.content-inner-right{width:100%;}
-	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px; padding:10px 10px;padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar{width:100% !important;margin-top: 0px;padding-top: 20px; padding-bottom: 10px;border-top:1px solid #e6e6e6;}
+	aside.sidebar ul {padding-left: 10px;}
 	.blog-post-content .blog-post-featured-media{width:290px; height:auto; float:left;margin-bottom:30px; overflow:hidden;position:relative;}
 	.blog-post-content .blog-post-featured-media .thumb{width:100%;}
 	.blog-post-content .video{width:290px !important;height:163px !important;}
