@@ -52,7 +52,7 @@
 	blockquote p.blockquote-cite{color:#ccc;margin-top:20px; font-size: 14px; font-weight: bold; font-style: italic;}	
 
 		/*Default*/	
-		blockquote {font-family:'Source Sans Pro',sans-serif;font-size:20px;line-height:25px; background:none;border-left:5px solid #ddd;padding:0 0 0 40px;}
+		blockquote {font-family:'Source Sans Pro',sans-serif;font-size:15px;line-height:25px; background:none;border-left:5px solid #ddd;padding:0 0 0 40px;}
 		blockquote p.blockquote_cite {font:13px/13px Arial, sans-serif;font-style:italic;margin-top:20px; font-style: italic;}
 
 		/*Boxed-border*/

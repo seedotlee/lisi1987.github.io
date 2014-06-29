@@ -3,9 +3,14 @@ auto: true
 markdown: rdiscount
 pygments: true
 paginate: 8
-permalink: /:title
+permalink: /:categories/:title
 
-title: lisi1987.com
+title: 李思_壹玖捌柒's Blog
 url: http://www.lisi1987.com
 feed: /atom.xml
 author_info: <a href="http://www.lisi1987.com/">李思_壹玖捌柒</a>
+
+follow me:
+    - github
+    - twitter
+    - weibo

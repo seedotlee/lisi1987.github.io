@@ -1,11 +1,7 @@
 ---
-layout:     home
-title:      The official raywenderlich.com Objective-C style guide
-category: blog
-description: This style guide outlines the coding conventions for raywenderlich.com.he reason we made this style guide was so that we could keep the code in our books, tutorials, and starter kits nice and consistent - even though we have many different authors working on the books.
+layout: post
+title:  Objective-C style guide.
 ---
-
-# The official raywenderlich.com Objective-C style guide.
 
 This style guide outlines the coding conventions for raywenderlich.com.
 
@@ -126,7 +122,6 @@ Use `#pragma mark -` to categorize methods in functional groupings and protocol/
 * Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
 
 **Preferred:**
-
 ```objc
 if (user.isHappy) {
   //Do something
@@ -136,7 +131,6 @@ if (user.isHappy) {
 ```
 
 **Not Preferred:**
-
 ```objc
 if (user.isHappy)
 {

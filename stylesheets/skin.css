@@ -15,11 +15,11 @@ h1,h2,h3,h4,h5,h6,#section-title, h1 span,h2 span,h3 span,h4 span,h5 span,h6 spa
 	font-family:"Source Sans Pro", sans-serif;
 }
 
-h1, h1 span { font-size:60px; line-height:55px; }
-h2, h2 span { font-size:50px; line-height:47px; }
-h3, h3 span { font-size:40px; line-height:38px; }
-h4, h4 span { font-size:30px; line-height:29px; }
-h5, h5 span { font-size:25px; line-height:25px; }
+h1, h1 span { font-size:40px; line-height:55px; }
+h2, h2 span { font-size:35px; line-height:47px; }
+h3, h3 span { font-size:30px; line-height:38px; }
+h4, h4 span { font-size:25px; line-height:29px; }
+h5, h5 span { font-size:20px; line-height:25px; }
 h6, h6 span { font-size:20px; line-height:20px; }
 #section-title,
 #section-title h1, #section-title h1 span,

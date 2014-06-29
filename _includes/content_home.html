@@ -1,0 +1,38 @@
+<div class="content-inner-left">
+
+      <!-- Sticky Post with Featured Slider -->
+    
+      <!-- Post with Featured Image -->
+      {% for post in site.posts %}
+      <article class="sticky blog-post">
+        <div class="blog-post-content">
+
+          <!-- Featured Image -->
+          
+          <h4 class="blog-post-title"><a href="{{ post.url }}" title="Paginated Post">{{ post.title }}</a></h4>
+          <div class="blog-post-meta">
+            <span>{{ post.date | date_to_utc | date: '%Y-%m-%d'}}</span> | 
+            Comments: <a href="#" title="0">0</a> | 
+            Posted by: {{ post.author}} | 
+            In: 
+            {% for tag in post.tags %}
+              <a href="#" title="{{ tag }}" rel="category tag">{{ tag }}</a> &nbsp;
+            {% endfor %}
+          </div>
+          <p>
+            {{post.description}}
+          </p>
+          <a href="{{ post.url }}" class="readMore blog-post-read-more" title="Read more">Read more →</a>
+        </div>
+      </article>
+      {% endfor %}
+      <!-- Pagination -->
+      <div class="pagination">
+        <div class="nav-previous">
+          <a href="#">« Older posts</a>
+        </div>
+        <div class="nav-next"></div>
+      </div>
+      <!-- Pagination End -->
+
+    </div>
