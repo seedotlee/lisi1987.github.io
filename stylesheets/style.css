@@ -309,7 +309,7 @@
 		.blog-post-grid-content .blog-post-meta-date span.month-year{display: block;font-size:12px;line-height:12px;}
 			
 	/*Blog layout:regular*/
-	.content-inner-left{float:left; margin:0 45px 0 0;}
+	.content-inner-left{ margin:0 45px 0 0;}
 	.content-inner-right{width:605px;float:right; margin:0 0 0 45px;}
 		article.blog-post{margin-bottom:50px;padding-bottom:50px; overflow:hidden;border-bottom:1px solid #e6e6e6;}
 		article.blog-post:last-child{margin-bottom: 0; padding-bottom:0;border: none;}
