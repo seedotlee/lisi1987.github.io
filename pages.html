@@ -1,0 +1,30 @@
+---
+layout: page
+title: Authors 
+header: Authors
+group: navigation
+---
+{% include JB/setup %}
+
+<ul>
+
+{% for author in site.authors %}
+<div style = "margin: 0 0 40px 0;">
+	<h4> {{ author }} </h4>
+	
+	{% for node in site.posts %}
+		
+		{% if node.author ==  author %}
+		  <li style = "padding:15px 0 15px 0; list-style:none; border-bottom-color: #D4D4D4; border-bottom-width: 1px;border-bottom-style: dotted; ">
+
+		  	<div style="color:#7A7A7A;float:left; font-size: 10px;margin-right:30px"> {{ node.date | date_to_long_string }} </div>
+			  <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}} 
+			  	
+    		  </a> 
+		  </li>
+		{% endif %}
+		
+	{% endfor %}
+</div>
+{% endfor %}
+</ul>

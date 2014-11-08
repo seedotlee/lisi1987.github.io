@@ -1,0 +1,26 @@
+{% comment %}<!--
+index_list helper. 
+Usage:
+  1) assign the 'index_list' variable to a valid array of posts.
+  2) include custom/index_list
+  example:
+    {% assign index_list = site.posts %}
+    {% include custom/index_list %}
+        
+-->{% endcomment %}
+
+{% for post in index_list  %}
+    {% if post.top == true %}
+
+      top:{{ post.title }}<br/>
+      
+    {% else %}
+
+          {{ post.title }}
+
+    {% endif %}
+
+
+
+
+{% endfor %}
