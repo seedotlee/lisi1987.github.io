@@ -6,7 +6,7 @@ tagline: Write the Code. Change the World.
 
 ###Hello everybody!
 
-###Let's GO!
+### [Let's GO!](http://www.lisi1987.com/archive.html)
 
 
 
